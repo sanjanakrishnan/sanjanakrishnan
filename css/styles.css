@@ -1,0 +1,116 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+:root {
+  --lite: #92989e;
+  --dark: #32373c;
+  --darker: #1a1e20;
+}
+body {
+  /* apply custom rules to the body here */
+  color: whitesmoke;
+}
+
+header {
+  padding: 120px 0 140px;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-darker {
+  background-color: var(--darker);
+}
+
+.bg-lite {
+  background-color: var(--lite);
+}
+
+a {
+  /*color: #00AA00;
+  color: #DC3958; 
+  color: #F79A32; */
+  color: bisque;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: hotpink;
+}
+
+/* media query when the media is wider than 992px */
+@media (min-width: 992px) {
+  header {
+    padding: 120px 0 140px;
+    background-color: black;
+  }
+}
+
+ul {
+  padding: 0;
+  margin-left: 1.5em;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+h3 {
+  padding: 0.25em;
+  font-size: 20px;
+}
+
+.rounded-circle {
+  width:200px;
+  height:200px;
+}
+
+.bg-projects {
+  background-color: #000005;
+}
+
+.portfolio-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+
+.card-img-top {
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: calc(50px + 20vw);
+}
+
+.no-b-radius {
+  border-bottom-right-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+}
+/* 
+.h-100 {
+  border-radius: 25px 25px 25px 25px;
+  border-color: grey;
+  border-width: 0.2em;
+}
+
+.card-body {
+  border-radius: 0px 0px 25px 25px;
+} */
+
+/* .text-white {background-color: black;} */
+
+section {
+  padding: 40px 0;
+  /* background-color:black; */
+}
+
+/* div {
+  background-color:black;
+}
+*/
+p {
+  color: whitesmoke;
+}
+
+dt {color: #DC3958;}
+dd {color:lightgrey;}
